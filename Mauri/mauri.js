@@ -19,4 +19,6 @@ const submitFetch = async (event) => {
   } catch (error) {
     console.error("Error:", error);
   }
+
+  return false;
 };

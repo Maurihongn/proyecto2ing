@@ -8,9 +8,13 @@
   <body>
     <h1>Funcion fecth req res</h1>
 
-    <form action="" onsubmit="submitFetch()">
-      <input type="number" placeholder="el id aca del 1 al 12" />
-      <button type="submit">Buscar usuario</button>
+    <form action="" onsubmit="return submitFetch(event)">
+      <input
+        type="number"
+        id="userIdInput"
+        placeholder="el id aca del 1 al 12"
+      />
+      <input type="submit" value="Buscar usuario" />
     </form>
 
     <div>
